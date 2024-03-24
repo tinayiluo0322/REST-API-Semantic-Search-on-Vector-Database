@@ -25,4 +25,4 @@ RUN if [ -d /new-lambda-project/lambda/tinayiluo_ids721_week7/ ]; then echo "Dir
 RUN if [ -f /new-lambda-project/lambda/tinayiluo_ids721_week7/bootstrap]; then echo "File '/new-lambda-project/lambda/lambda/bootstrap' exists"; else echo "File '/new-lambda-project/lambda/lambda/bootstrap' does not exist"; fi
 
 # Set the entrypoint for the Lambda function
-ENTRYPOINT ["/new-lambda-project/lambda/jeremytan_ids721_week7/bootstrap"]
+ENTRYPOINT ["/new-lambda-project/lambda/tinayiluo_ids721_week7/bootstrap"]

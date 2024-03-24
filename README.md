@@ -1,6 +1,6 @@
 # tinayiluo_IDS721_week7
 
-
+[![pipeline status](https://gitlab.com/ly178/tinayiluo_ids721_week7/badges/main/pipeline.svg)](https://gitlab.com/ly178/tinayiluo_ids721_week7/-/commits/main)
 
 ## Getting started
 
