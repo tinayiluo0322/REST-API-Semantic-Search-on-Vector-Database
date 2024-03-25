@@ -67,14 +67,14 @@ My query is “Play a ball”: `https://9hpt1l4en0.execute-api.us-east-1.amazona
 1. Navigate to IAM, create a user, and attach policies: `IAMFullAccess`, `AmazonEC2ContainerRegistryFullAccess`, and `AWSLambda_FullAccess`.
 2. Upon completing user creation, open user details, and navigate to security credentials.
 3. Generate an access key (select OTHER).
-4. Store `AWS_ACCESS_KEY_ID`, `AWS_SECRET_ACCESS_KEY`, and `AWS_REGION` (your choice) in your `.env` file (ensure this file is not pushed with your repo, add it to `.gitignore`).
+4. Store `AWS_ACCESS_KEY_ID`, `AWS_SECRET_ACCESS_KEY`, and `AWS_REGION` in the `.env` file (ensure this file is not pushed with the repo, add it to `.gitignore`).
 5. Export the variables again.
 6. Build the project for release to ensure it functions correctly: `cargo lambda build --release`.
 7. Ensure the API gateway functions correctly without a Docker image for testing.
 8. Deploy the project for release: `cargo lambda deploy --env-file .env`.
 9. Log into AWS Lambda (ensure the correct region is selected) and verify installation.
 10. Upon confirmation, connect the Lambda function with AWS API Gateway.
-11. Create a new API (retain default settings, REST API), then create a new resource (the URL path to be appended to your API link) and enable the CORS option (to connect with different APIs outside of AWS).
+11. Create a new API (retain default settings, REST API), then create a new resource (the URL path to be appended to the API link) and enable the CORS option (to connect with different APIs outside of AWS).
 12. Create a method to attach the lambda function (since this is an HTTP lambda function, enable lambda proxy integration).
 13. Deploy the stage, then test the URL.
 
@@ -84,9 +84,9 @@ My query is “Play a ball”: `https://9hpt1l4en0.execute-api.us-east-1.amazona
 3. Build the image via Amazon ECR. Navigate to the ECR registry and create a new private registry. Copy the login commands.
 4. Start Docker and execute `docker buildx build --progress=plain --platform linux/arm64 -t week7 .`.
 5. Follow the ECR guide steps to push the image to the ECR repository.
-6. In Lambda, create a function using the image, then search for your image, select arm64 in the options, and proceed.
-7. Since this is a new function, add your environment variables (`QDRANT_URI`, `QDRANT_KEY`, `COHERE_KEY`) in the configuration of your Lambda function.
-8. Create a new API (keep default settings, REST API) then create a new resource (the URL path that will be appended to your API link) and enable the CORS option (to connect to different APIs outside of AWS).
+6. In Lambda, create a function using the image, then search for the image, select arm64 in the options, and proceed.
+7. Since this is a new function, add the environment variables (`QDRANT_URI`, `QDRANT_KEY`, `COHERE_KEY`) in the configuration of the Lambda function.
+8. Create a new API (keep default settings, REST API) then create a new resource (the URL path that will be appended to the API link) and enable the CORS option (to connect to different APIs outside of AWS).
 9. Create a method to attach the lambda function (since this is an HTTP lambda function, turn on lambda proxy integration).
 10. Deploy the stage, then test the URL.
 
