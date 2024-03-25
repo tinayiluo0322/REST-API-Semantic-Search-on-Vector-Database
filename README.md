@@ -2,6 +2,10 @@
 
 # REST API Semantic Search on Vector Database
 
+## Demo Video
+
+Demo Video-REST API Semantic Search on Vector Database[https://youtu.be/PQUIIEHAMD4]
+
 ## Introduction
 
 This project is centered around the creation and utilization of a vector database to manage and search through sports-related data based on semantic similarity. Leveraging advanced technologies like Qdrant for vector database management, Cohere for generating text embeddings, and Rust for backend development, this initiative aims to provide a seamless way to perform semantic searches. With the help of Docker and AWS services, the application is designed to be scalable, reliable, and easily deployable.
