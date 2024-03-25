@@ -15,7 +15,7 @@ This project is centered around the creation and utilization of a vector databas
 - Containerization: Containerize the service using Docker for easy deployment and scaling.
 - CI/CD: Implement Continuous Integration and Continuous Deployment (CI/CD) pipelines for automated testing and deployment.
 
-## How It Works
+## Functionality (How it Works?)
 
 Upon entering a search query related to sports, the system leverages a vector database to return the top 5 sports that closely match the search terms. This process involves data ingestion into the vector database, semantic search query execution, and visualization of the search results through a simple REST API, accessible via a public endpoint.
 
