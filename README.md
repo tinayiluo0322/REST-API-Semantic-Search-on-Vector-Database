@@ -1,4 +1,4 @@
-[![pipeline status](https://gitlab.com/ly178/tinayiluo_ids721_week7/badges/main/pipeline.svg)](https://gitlab.com/ly178/tinayiluo_ids721_week7/-/commits/main)
+[![pipeline status](https://gitlab.com/ly178/tinayiluo-ids-721-individual-2/badges/main/pipeline.svg)](https://gitlab.com/ly178/tinayiluo-ids-721-individual-2/-/commits/main)
 
 # REST API Semantic Search on Vector Database
 
@@ -23,7 +23,7 @@ Example Demonstration:
 
 My query is “Play a ball”: `https://9hpt1l4en0.execute-api.us-east-1.amazonaws.com/week7_new_stage/?sports=%27Play%20a%20ball%27`
 
-![Screen_Shot_2024-03-24_at_6.49.00_PM](/uploads/bb000b54cf89ff985ceaa8bb6a1982d3/Screen_Shot_2024-03-24_at_6.49.00_PM.png)
+![Screen_Shot_2024-03-24_at_6.49.00_PM](/uploads/a91e84ef82e3cd481ae38ae5860f65c4/Screen_Shot_2024-03-24_at_6.49.00_PM.png)
 
 ## Technical Overview
 
@@ -100,29 +100,29 @@ My query is “Play a ball”: `https://9hpt1l4en0.execute-api.us-east-1.amazona
 ### Sample Viz (Deployment)
 My query is “Play a ball”: `https://9hpt1l4en0.execute-api.us-east-1.amazonaws.com/week7_new_stage/?sports=%27Play%20a%20ball%27`
 
-![Screen_Shot_2024-03-24_at_6.49.00_PM](/uploads/bb000b54cf89ff985ceaa8bb6a1982d3/Screen_Shot_2024-03-24_at_6.49.00_PM.png)
+![Screen_Shot_2024-03-24_at_6.49.00_PM](/uploads/a91e84ef82e3cd481ae38ae5860f65c4/Screen_Shot_2024-03-24_at_6.49.00_PM.png)
 
 ### Qdrant Testing
 
-![Screen_Shot_2024-03-24_at_6.48.08_PM](/uploads/4002ebcd4127005a901313c780891e91/Screen_Shot_2024-03-24_at_6.48.08_PM.png)
+![Screen_Shot_2024-03-24_at_6.48.08_PM](/uploads/e83161f5311d4096ab632a90d68c540d/Screen_Shot_2024-03-24_at_6.48.08_PM.png)
 
 ### Postman Testing (Local)
 
-![Screen_Shot_2024-03-24_at_7.04.15_PM](/uploads/48c5e06052a9e8d64d2988a954e17155/Screen_Shot_2024-03-24_at_7.04.15_PM.png)
+![Screen_Shot_2024-03-24_at_7.04.15_PM](/uploads/1630039efaedfed91c2df77ea53f47d4/Screen_Shot_2024-03-24_at_7.04.15_PM.png)
 
 ### Docker Image in ECR Container Registry
 
-![Screen_Shot_2024-03-24_at_6.51.17_PM](/uploads/2a29103abef757da438265011a678410/Screen_Shot_2024-03-24_at_6.51.17_PM.png)
+![Screen_Shot_2024-03-24_at_6.51.17_PM](/uploads/278cc5175650e2d0d6cd164d9f270438/Screen_Shot_2024-03-24_at_6.51.17_PM.png)
 
-![Screen_Shot_2024-03-24_at_6.53.32_PM](/uploads/2fe0c0ea4447bf15996311ec5b3459db/Screen_Shot_2024-03-24_at_6.53.32_PM.png)
+![Screen_Shot_2024-03-24_at_6.53.32_PM](/uploads/b38d768aa48103e781812ac65dc3e274/Screen_Shot_2024-03-24_at_6.53.32_PM.png)
 
 ### Lambda Architecture Diagram with API Gateway
 
-![Screen_Shot_2024-03-24_at_6.55.52_PM](/uploads/1958a7eb781bdf24a4a72b6883c09d4b/Screen_Shot_2024-03-24_at_6.55.52_PM.png)
+![Screen_Shot_2024-03-24_at_6.55.52_PM](/uploads/4de4c7fe1b53d895978f9e499ba6e05c/Screen_Shot_2024-03-24_at_6.55.52_PM.png)
 
 ### CICD pipeline to Push to ECR Contianer (Linked to Lambda Function)
 
-![Screen_Shot_2024-03-24_at_6.59.30_PM](/uploads/b9ca9b2b6c6e3539814b5fd0fdb02bd0/Screen_Shot_2024-03-24_at_6.59.30_PM.png)
+![Screen_Shot_2024-03-24_at_6.59.30_PM](/uploads/7c3745dd3ce9fec0c8f77bfd3f9f09b9/Screen_Shot_2024-03-24_at_6.59.30_PM.png)
 
 ## Conclusion
 
