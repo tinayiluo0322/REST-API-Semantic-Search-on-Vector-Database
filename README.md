@@ -4,7 +4,7 @@
 
 ## Demo Video
 
-Demo Video-REST API Semantic Search on Vector Database[https://youtu.be/PQUIIEHAMD4]
+[Demo Video-REST API Semantic Search on Vector Database](https://youtu.be/PQUIIEHAMD4)
 
 ## Introduction
 
